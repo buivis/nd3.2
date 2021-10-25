@@ -34,12 +34,12 @@ nav a.left {
 
   
   .card {
-    padding: 55px 15px 0px 15px;
+    padding: 55px 0px 0px 0px;
     text-align: center;
 
   }
   .card1 {
-    padding: 20px 15px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
 
   }
@@ -47,3 +47,4 @@ nav a.left {
       width: 75%;
       height: 75%;
   }
+
