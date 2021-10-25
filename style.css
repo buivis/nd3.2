@@ -2,25 +2,36 @@
     box-sizing:border-box;
    
 }
+
 body {
-    background-color: lightgray;
     margin:0;
 }
-@media screen and (max-width:700px) {
-    section {
-        flex-direction: column;
-    }
-}
+
+
 nav{
+    background-color:#333;
     overflow:hidden;
 }
-nav a{
-    float:right;
-    padding-right: 50px;
-}
-nav a.left {
+nav a {
     float:left;
-    padding-left: 50px;
+    color: white;
+    text-align:center; 
+    padding: 14px 20px;
+    text-decoration:none;
+
+}
+nav a.right {
+    float:right;
+}
+section {
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+main {
+    flex:100%;
+    padding:20px;
 }
 .column {
     float: left;
@@ -30,16 +41,19 @@ nav a.left {
   
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 350px;}
+  .row1 {margin: 0 350px;
+    background-color: black;        
+}
   
 
   
   .card {
-    padding: 55px 0px 0px 0px;
+    padding: 55px 15px 0px 15px;
     text-align: center;
 
   }
   .card1 {
-    padding: 20px 0px 0px 0px;
+    padding: 20px 15px;
     text-align: center;
 
   }
@@ -48,3 +62,13 @@ nav a.left {
       height: 75%;
   }
 
+footer {
+    text-align:center;
+    background-color:#ddd;
+    padding:0px;
+}
+@media screen and (max-width:700px) {
+    section {
+        flex-direction: column;
+    }
+}
