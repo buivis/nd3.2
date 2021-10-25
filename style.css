@@ -1,0 +1,49 @@
+* {
+    box-sizing:border-box;
+   
+}
+body {
+    background-color: lightgray;
+    margin:0;
+}
+@media screen and (max-width:700px) {
+    section {
+        flex-direction: column;
+    }
+}
+nav{
+    overflow:hidden;
+}
+nav a{
+    float:right;
+    padding-right: 50px;
+}
+nav a.left {
+    float:left;
+    padding-left: 50px;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 350px;}
+  
+
+  
+  .card {
+    padding: 55px 15px 0px 15px;
+    text-align: center;
+
+  }
+  .card1 {
+    padding: 20px 15px;
+    text-align: center;
+
+  }
+  img {
+      width: 75%;
+      height: 75%;
+  }
