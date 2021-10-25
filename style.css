@@ -43,8 +43,8 @@ main {
     width: 33%;
   }
 
-  .row {margin: 0 350px;}
-  .row1 {margin: 0 350px;}
+  .row {margin: 0px 350px;}
+  .row1 {margin: 5px 350px;}
 
   
   .card {
@@ -53,15 +53,18 @@ main {
 
   }
   .card1 {
-    padding: 20px 15px;
+    padding: 25px 16px 0px 16px;
     text-align: center;
 
   }
   .card2 {
-    padding: 0px;
+    padding: 10px 16px;
     text-align: center;
+    box-sizing: 0 4px 8px 0;
+    background-color: white;
 
   }
+
   img {
       width: 75%;
       height: 75%;
