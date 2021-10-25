@@ -38,13 +38,13 @@ main {
     width: 33%;
     padding: 0 10px;
   }
-  
-  /* Remove extra left and right margins, due to padding */
+  .column1 {
+    float: left;
+    width: 33%;
+  }
+
   .row {margin: 0 350px;}
-  .row1 {margin: 0 350px;
-    background-color: black;        
-}
-  
+  .row1 {margin: 0 350px;}
 
   
   .card {
@@ -57,15 +57,21 @@ main {
     text-align: center;
 
   }
+  .card2 {
+    padding: 0px;
+    text-align: center;
+
+  }
   img {
       width: 75%;
       height: 75%;
   }
 
 footer {
-    text-align:center;
-    background-color:#ddd;
-    padding:0px;
+    flex:100%;
+    padding:20px;
+    background-color:lightgray;
+
 }
 @media screen and (max-width:700px) {
     section {
