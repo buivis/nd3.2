@@ -64,7 +64,7 @@ main {
 
   }
   .card2 {
-    padding: 10px 16px;
+    padding: 10px 16px 45px 10px;
     text-align: center;
     box-sizing: 0 4px 8px 0;
     background-color: white;
@@ -105,12 +105,12 @@ footer {
     background-color: rgb(56, 56, 165); 
     color: white; 
     border: 1px solid grey;
-    margin-left: 350px;
+    float:right;
     display:block;
   }
   footer p.left {
       color: rgb(56, 56, 165);
-      margin-right:200px;
+      float:left;
       font-weight: bold;
       font-size: 20px;
 
