@@ -64,7 +64,10 @@ main {
 
   }
   .card2 {
+<<<<<<< HEAD
     padding: 35px 16px;
+=======
+>>>>>>> e06186c868881eff03926c37507eaca2e40adfbe
     text-align: center;
     box-sizing: 0 4px 8px 0;
     background-color: white;
@@ -110,11 +113,15 @@ footer {
   }
   footer p.left {
       color: rgb(56, 56, 165);
-      margin-right:200px;
+      float:left;
       font-weight: bold;
       font-size: 20px;
 
 
+  }
+  main p.red {
+    color: red;
+    font-weight: bold;
   }
   .fa {
     padding: 2px;
@@ -134,6 +141,10 @@ footer {
     background: #55ACEE;
     color: white;
   }
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
   li {
       list-style: none;
       margin:0px 355px 0px 0px;
